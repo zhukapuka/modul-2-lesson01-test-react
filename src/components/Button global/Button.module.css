@@ -1,0 +1,37 @@
+.button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: royalblue;
+  color: white;
+}
+@keyframes anime {
+  from {
+    transform: rotate(0ded);
+    background-color: #000;
+  }
+  to {
+    transform: rotate(360deg);
+    background-color: aqua;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .anime {
+    animation: anime infinite 5s linear;
+  }
+}
+
+.secondary {
+  background-color: lightgray;
+  color: black;
+}
+.midle {
+  background-color: rgb(143, 14, 14);
+  color: rgb(144, 132, 132);
+}
